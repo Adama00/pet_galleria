@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<style>
-    body{background-color: blanchedalmond;}
-</style>
-    </head>
-    <body>
-<h1>
-    Pet Galleria
-</h1>
-<p>
-</p>
-    </body>
+  <head>
+    <style>
+      body {
+        background-color: blanchedalmond;
+      }
+      ul {
+        display: block;
+        list-style-type: none;
+      }
+      li {
+        margin-left: 0px;
+        margin-top: 10px;
+      }
+      li.header {
+        font-weight: 700;
+        margin-left: 40px;
+        font-size: larger;
+      }
+      ul li {
+        float: left;
+      }
+      ul li a {
+        display: block;
+        color: bisque;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      ul li a:hover {
+        background-color: rgb(236, 202, 158);
+      }
+      span.galleria-text {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="flex-container">
+      <li class="header">Pet <span class="galleria-text">Galleria</span></li>
+      <a href="/About.html" style="float: right;"><li style="margin-right: 60px; float: right">About</li></a>
+    </ul>
+
+    <p></p>
+  </body>
 </html>
